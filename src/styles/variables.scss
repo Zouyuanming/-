@@ -1,0 +1,51 @@
+// 主色
+$main-color: #0e2968;//
+// 辅色1
+$secondary-color-1:#6faad4;//
+// 辅色2
+$secondary-color-2: rgba(2, 20, 72, 0.4);
+// 辅色3
+$secondary-color-3: rgba(2, 20, 72, 0.4);
+
+/**********背景色**********/
+$border-color:#092E4D;
+
+$border-color-2:#42ca83;
+
+/*********文字颜色**********/
+// 标题文字颜色
+$title-font-color:#fff;
+// 一级文字颜色
+$level1-font-color:#fff;
+// 二级文字颜色
+$level2-font-color:#6faad4;
+// 三级文字颜色
+$level3-font-color:#e9f3fc;
+
+/**Home*/
+$--Home-background-color:$secondary-color-3;
+
+/**
+toolbar
+*/
+$--toolbar-background-color:$secondary-color-2;
+$--toolbar-background-color-hover:$secondary-color-1;
+$--toolbar-font-color:$level1-font-color;
+$--toolbar-border-color: $secondary-color-1;
+
+/**panel-widget**/
+$--panel-widget-border-color:$border-color;
+$--panel-widget-background-color:$secondary-color-2;
+$--panel-widget-font-color:$title-font-color;
+$--panel-widget-font-color-hover:$level2-font-color;
+$--panel-widget-background-color-hover:$level3-font-color;
+$--panel-widget-driver-background-color:$border-color-2;
+
+/**m-drawer**/
+$--m-drawer-border-color:$border-color;
+$--m-drawer-background-color:$secondary-color-2;
+$--m-drawer-title-font-color:$title-font-color;
+$--m-drawer-title-font-color-hover:$level2-font-color;
+
+$--m-drawer-open-background-color:$secondary-color-2;
+$--m-drawer-open-background-color-hover:$secondary-color-1;
